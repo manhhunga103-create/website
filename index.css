@@ -1,0 +1,304 @@
+.header {
+  height: 1400px;
+  background-color: rgb(250, 62, 109);
+}
+
+#button {
+  background-color: rgb(250, 62, 109);
+  font-size: 130%;
+  font-family: Arial, Helvetica, sans-serif;
+  border: none;
+  color: rgb(217, 173, 194);
+  font-weight: bold;
+}
+
+.btn-group {
+  position: absolute;
+  left: 75%;
+  top: 30px;
+}
+
+.phonetseller {
+  color: white;
+  font-size: 170%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  position: absolute;
+  left: 10%;
+  top: 30px;
+}
+
+.chela-one-regular {
+  font-family: "Chela One", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  font-size: 50px;
+  position: absolute;
+  top: 150px;
+  left: 10%;
+}
+
+.phone {
+  height: calc(0.729px * 1000);
+  width: 1000px;
+  transform: rotate(30deg);
+}
+
+.phonepic {
+  position: absolute;
+  top: 150px;
+  left: 22%;
+}
+
+.fore-pic div {
+  color: black;
+  font-weight: bold;
+  font-size: 120%;
+}
+
+.fore-pic {
+  background-color: white;
+  position: absolute;
+  display: flex;
+  width: 100%;
+  height: 350px;
+  top: 350px;
+}
+
+.fore-pic img {
+  width: 70px;
+  height: 70px;
+}
+
+.ez p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.fore-pic {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.fore-pic div {
+  text-align: center;
+  margin-top: 130px;
+}
+
+.space {
+  height: 700px;
+  padding: 100px 0;
+}
+
+.hrt img {
+  animation-name: mymove;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes mymove {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.carousel-inner {
+  height: 400px;
+  width: 400px;
+  position: relative;
+  top: 1000px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 200%;
+  color: white;
+  display: flex;
+  margin: 0 auto;
+}
+
+.carousel-inner img {
+  border-radius: 50%;
+  height: 300px;
+  width: 300px;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.carousel-inner p {
+  margin: 0 auto;
+}
+
+.card {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  margin: 14px;
+}
+
+.card-title {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  width: 18rem;
+  position: relative;
+  top: -16px;
+  left: -17px;
+  padding: 14px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+}
+
+#card1 {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  width: 15rem;
+  position: relative;
+  left: 5px;
+  top: 7rem;
+  padding: 14px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  width: 18rem;
+  height: 19rem;
+  border-radius: 2px;
+  padding: 0 !important;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.plans {
+  font-weight: 900;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 150%;
+  display: flex;
+  justify-content: center;
+}
+
+#card2 {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  width: 15rem;
+  position: relative;
+  left: 5px;
+  top: 7rem;
+  padding: 14px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+}
+
+#card3 {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  width: 15rem;
+  position: relative;
+  left: 5px;
+  top: 7rem;
+  padding: 14px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+}
+
+#card4 {
+  position: relative;
+  justify-content: center;
+  display: flex;
+  top: 8rem;
+  border-radius: 6px; 
+  border: black 2px solid;
+  box-shadow: 10px 5px 5px #aaaaaa;
+}
+
+#card5 {
+  position: relative;
+  justify-content: center;
+  display: flex;
+  top: 8rem;
+    box-shadow: 10px 5px 5px #aaaaaa;
+}
+
+#card6 {
+  position: relative;
+  justify-content: center;
+  display: flex;
+  top: 8rem;
+    box-shadow: 10px 5px 5px #aaaaaa;
+}
+
+.footer {
+  height: 400px;
+  background-color: rgb(250, 62, 109);
+}
+
+.footer p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 900;
+  font-size: 40px;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+#btn1 {
+  display: flex;
+  position: relative;
+  transition: 0.5s;
+}
+
+#btn2 {
+  display: flex;
+  position: relative;
+  background-color: rgb(250, 62, 109);
+  transition: 0.5s;
+}
+
+#btn1:hover {
+  background-color: white;
+}
+
+#btn2:hover {
+  background-color: white;
+}
+
+.downloads {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.downloads img {
+  width: 3%;
+  height: 40%;
+}
+
+.socials {
+  height: 200px;
+  justify-content: center;
+  display: flex;
+  position: relative;
+  top: 50px;
+}
+
+.socials a img {
+  height: 30px;
+  width: 30px;
+}
+
+#btn-0 {
+  position: relative;
+  top: 250px;
+  left: -200px;
+}
+
+#btn-1 {
+  position: relative;
+  top: 250px;
+  left: -500px;
+}
+
+.bru {
+  width: 60%;
+  margin: 0 auto;
+  height: 100%;
+}
